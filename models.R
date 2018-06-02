@@ -6,7 +6,7 @@ train <- heart[index,]
 test <- heart[-index,]
 
 
-# Part 2: Random Forest
+# Part 2: Random Forest Model
 library(randomForest)
 library(caret)
 set.seed(1234)
