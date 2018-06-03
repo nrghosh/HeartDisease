@@ -1,4 +1,4 @@
-# Comparison Analysis
+# RF vs. GBT Comparison Analysis
 ## 1. Model Preference
 
 Based on the results, I prefer the Random Forest model. Not only is it more accurate (0.79) than the XGBoost counterpart (0.71), but it has a higher measure of specificity (0.795 compared to 0.64) and equivalent sensitivity as the XGBoost model. In addition, the Random Forest model was much faster to train and processes than the XGBoost equivalent.
@@ -18,7 +18,7 @@ They are both obviously ensemble approaches to decision trees, utilizing the bas
 
 In general, a BRT model takes longer than a RF model to train and utilize. They also have different approaches to sampling and different goals, reflected in the techniques they use. Random forests use bagging (bootstrapped aggregating) as a sampling technique and use parallel ensembling. Also, Random Forests are low-bias, high-variance type models, and attempt to reduce variance. Compare this to Boosted Regression Trees, which are high-bias, low-variance type models and attempt to reduce bias, while using Boosting as a sampling technique, as well as sequential ensembling. In addition, Boosted Trees have a handful of hyperparameters that require tuning, while Random Forests require practically no tuning. We expect Boosted Regression Trees to perform better than Random Forests in general- one reason that this hypothesis could have been contradicted by our experimental model results is that our dataset was comparively small. 
 
-# Analysis
+# SVM Analysis
 ## 2. Optimized values of Gamma and Cost?
 
 The best values of Gamma and Cost are 0.01 and 1, respectively.
