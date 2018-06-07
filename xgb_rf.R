@@ -23,6 +23,7 @@ confusionMatrix(pred, test$output, positive="Present")
 
 
 # Part 3: XGB Boosting
+# 'Extreme Gradient Boosting' uses an ensemble of weak decision models for classification problems
 library(caret)
 set.seed(1234)
 tc <- trainControl(method = "cv",
