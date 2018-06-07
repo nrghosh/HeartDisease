@@ -7,6 +7,7 @@ test <- heart[-index,]
 
 
 # Part 2: Random Forest Model
+# Ensemble learning method for classification, training many decision trees and outputting the mode
 library(randomForest)
 library(caret)
 set.seed(1234)
