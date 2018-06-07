@@ -1,4 +1,4 @@
-# Part 1: Data Prep
+# Part 1: Data Prep 
 load("/Users/nikhilghosh/Desktop/DM:ML/asgn4/heart.rdata")
 set.seed(1234)
 index <- sample(nrow(heart), 0.75*nrow(heart))
