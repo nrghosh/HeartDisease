@@ -1,4 +1,4 @@
-# RF vs. GBT Comparison Analysis
+# Random Forest vs. Gradient Boosted Trees Comparison Analysis
 ## 1. Model Preference
 
 Based on the results, I prefer the Random Forest model. Not only is it more accurate (0.79) than the XGBoost counterpart (0.71), but it has a higher measure of specificity (0.795 compared to 0.64) and equivalent sensitivity as the XGBoost model. In addition, the Random Forest model was much faster to train and processes than the XGBoost equivalent.
