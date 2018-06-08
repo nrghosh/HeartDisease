@@ -17,7 +17,7 @@ summary(fit.svm)
 prediction <- predict(fit.svm, train)
 table(train$output, prediction)
 
-# Test
+# Test initial model
 prediction <- predict(fit.svm, test)
 table(test$output, prediction)
 prop.table(table(prediction==test$output))
