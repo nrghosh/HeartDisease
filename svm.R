@@ -34,6 +34,6 @@ tuned.svm <- svm(output ~., data=train,
                  gamma=.01, cost=1)
 prediction <- predict(tuned.svm, test)
 
-# Evaluate
+# Evaluate new (tuned) model
 library(caret)
 confusionMatrix(prediction, test$output, positive="Present")
