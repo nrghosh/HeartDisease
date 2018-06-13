@@ -5,7 +5,6 @@ index <- sample(nrow(heart), 0.75*nrow(heart))
 train <- heart[index,]
 test <- heart[-index,]
 
-
 # Part 2: Random Forest Model
 # Ensemble learning method for classification, training many decision trees and outputting the mode
 library(randomForest)
