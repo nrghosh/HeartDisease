@@ -7,7 +7,7 @@ test <- heart[-index,]
 
 
 # Part 2: Support Vector Machine
-# A binary classification model that uses a novel clustering algorithm (developed by Siegelmann and Vapnik)
+# A binary classification model that uses a clustering algorithm (developed by Siegelmann and Vapnik)
 # This model works by carefully constructing a hyperplane or set of hyperplanes in k-dimensional space
 # Train
 library(e1071)
