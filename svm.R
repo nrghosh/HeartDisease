@@ -1,5 +1,5 @@
 # Part 1: Data Prep
-load("/Users/nikhilghosh/Desktop/DM:ML/asgn5/heart.rdata")
+# load("/Users/nikhilghosh/Desktop/DM:ML/asgn5/heart.rdata")
 set.seed(1234)
 index <- sample(nrow(heart), 0.75*nrow(heart))
 train <- heart[index,]
