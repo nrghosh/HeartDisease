@@ -29,7 +29,7 @@ tune <-  tune.svm(output ~ ., data=train,
                   gamma=Gamma, cost=Cost)
 summary(tune)
 
-# Create a tuned Model
+# Create a tuned model
 tuned.svm <- svm(output ~., data=train,
                  gamma=.01, cost=1)
 prediction <- predict(tuned.svm, test)
