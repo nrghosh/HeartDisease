@@ -9,7 +9,7 @@ test <- heart[-index,]
 # Part 2: Support Vector Machine
 # A binary classification model that uses a clustering algorithm (developed by Siegelmann and Vapnik)
 # This model works by carefully constructing a hyperplane or set of hyperplanes in k-dimensional space
-# Train
+# Train svm model
 library(e1071)
 set.seed(1234)
 fit.svm <- svm(output ~ ., data=train)
