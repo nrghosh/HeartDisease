@@ -21,7 +21,7 @@ In general, a BRT model takes longer than a RF model to train and utilize. They 
 # SVM Analysis
 ## 2. Optimized values of Gamma and Cost?
 
-The best values of Gamma and Cost are 0.01 and 1, respectively.
+The best values for Gamma and Cost are 0.01 and 1, respectively.
 
 ## 3. Applying the tuned model from #3 to the test data. 
 
