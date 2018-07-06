@@ -22,7 +22,7 @@ prediction <- predict(fit.svm, test)
 table(test$output, prediction)
 prop.table(table(prediction==test$output))
 
-# Tuning
+# Tuning specifications
 Gamma <- 10^(-5:0)
 Cost <- 10^(0:5)
 tune <-  tune.svm(output ~ ., data=train,
